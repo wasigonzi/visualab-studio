@@ -201,7 +201,7 @@ export function HelpMenuButton({
       action: "github",
     },
     {
-      label: "ArtCraft Studios",
+      label: "Visualab Studios",
       selected: false,
       icon: <YoutubeIcon  className="text-base" />,
       action: "artcraft",
@@ -220,10 +220,10 @@ export function HelpMenuButton({
         OpenUrl("https://discord.com/invite/75svZP2Vje");
         break;
       case "github":
-        OpenUrl("https://github.com/storytold/artcraft");
+        OpenUrl("https://github.com/wasigonzi/visualab-studio");
         break;
       case "artcraft":
-        OpenUrl("https://www.youtube.com/@OfficialArtCraftStudios");
+        OpenUrl("https://visualabstudios.com");
         break;
     }
   };

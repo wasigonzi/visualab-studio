@@ -93,12 +93,12 @@ body {
 }
 
 ::selection {
-  background: #2d81ff;
+  background: #009b84;
   color: #ffffff;
 }
 
 :focus-visible {
-  outline: 2px solid #74aaff;
+  outline: 2px solid #55efd0;
   outline-offset: 3px;
 }
 
@@ -131,13 +131,13 @@ body {
 /* The default (the "gray" theme id) is the brutalist system shared with
    artcraft-webapp: near-black surfaces, white/15 hairline borders. */
 :root {
-  --st-bg: #121316;
-  --st-panel: #101014;
+  --st-bg: #090b0d;
+  --st-panel: #0d1215;
   --st-panel-border: rgba(255, 255, 255, 0.15);
-  --st-modal: #101014;
+  --st-modal: #0d1215;
   /* default modal surface (can be gradient per theme) */
-  --st-controls: #1e1f22;
-  --st-controls-rgb: 30 31 34;
+  --st-controls: #172125;
+  --st-controls-rgb: 23 33 37;
   --st-controls-border: rgba(255, 255, 255, 0.15);
   --st-sunken: #060607;
   --st-fg: #f2f1ee;
@@ -159,7 +159,7 @@ body {
   --card-foreground: 0 0% 98%;
   --popover: 240 11% 7%;
   --popover-foreground: 0 0% 98%;
-  --primary: 216 100% 59%;
+  --primary: 171 100% 30%;
   --primary-foreground: 0 0% 98%;
   --secondary: 240 4% 9%;
   --secondary-foreground: 0 0% 98%;
@@ -171,7 +171,7 @@ body {
   --destructive-foreground: 0 0% 98%;
   --border: 0 0% 100% / 0.15;
   --input: 0 0% 100% / 0.15;
-  --ring: 217 100% 73%;
+  --ring: 168 83% 64%;
 
   /* Motion tokens, mirrored from artcraft-webapp. */
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
@@ -218,12 +218,12 @@ body {
 
 /* Default dark (brutalist, matches artcraft-webapp) */
 .theme-gray {
-  --st-bg: #121316;
-  --st-panel: #101014;
+  --st-bg: #090b0d;
+  --st-panel: #0d1215;
   --st-panel-border: rgba(255, 255, 255, 0.15);
-  --st-modal: #101014;
-  --st-controls: #1e1f22;
-  --st-controls-rgb: 30 31 34;
+  --st-modal: #0d1215;
+  --st-controls: #172125;
+  --st-controls-rgb: 23 33 37;
   --st-controls-border: rgba(255, 255, 255, 0.15);
   --st-sunken: #060607;
   --st-fg: #f2f1ee;
@@ -261,12 +261,12 @@ body {
 .theme-aurora,
 .theme-gradient {
   --st-bg:
-    radial-gradient(1200px 600px at 10% -10%, #2d81ff22, transparent),
+    radial-gradient(1200px 600px at 10% -10%, #009b8422, transparent),
     radial-gradient(900px 480px at 110% 110%, #1cb6be22, transparent), #070a12;
   --st-panel: #0f1220;
   --st-panel-border: #1e2237;
   --st-modal:
-    radial-gradient(560px 280px at 12% -10%, #2d81ff33, transparent),
+    radial-gradient(560px 280px at 12% -10%, #009b8433, transparent),
     radial-gradient(520px 280px at 110% 120%, #1cb6be33, transparent), #0f1220;
   --st-controls: #1a1f35;
   --st-controls-rgb: 26 31 53;

@@ -37,6 +37,7 @@ const GlobalSettingsManager = ({ env }: { env: Record<string, string> }) => {
   /// Initizations that depends on ENV vars ///
   function PostHogInit() {
     const apiKey = import.meta.env.VITE_POSTHOG_API_KEY;
+    if (!apiKey) return;
     posthog.init(apiKey, {
       api_host: "https://us.i.posthog.com/",
       ui_host: "https://us.i.posthog.com/",

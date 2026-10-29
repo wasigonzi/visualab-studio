@@ -171,7 +171,7 @@ pub fn settings_dialog(ctx: &egui::Context, enter_to_generate: &mut bool, userna
     ui.add_space(18.0);
     widgets::hud(ui, "About", theme::FAINT);
     ui.add_space(6.0);
-    ui.label(egui::RichText::new(format!("ArtCraft native {}", env!("CARGO_PKG_VERSION"))).size(13.0).color(theme::MUTED));
+    ui.label(egui::RichText::new(format!("Visualab Studio native {}", env!("CARGO_PKG_VERSION"))).size(13.0).color(theme::MUTED));
     if widgets::button(ui, Some(Icon::Folder), "Open data folder", widgets::Kind::Secondary, 0.0, theme::CONTROL_H).clicked() {
       if let Err(err) = open::that(data_root) {
         log::warn!("Couldn't open {}: {err}", data_root.display());

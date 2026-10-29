@@ -32,7 +32,7 @@ impl Credentials {
 
 /// `~/Artcraft`, shared with the Tauri app (`AppDataRoot`).
 pub fn data_root() -> PathBuf {
-  directories::UserDirs::new().map(|d| d.home_dir().to_path_buf()).unwrap_or_else(|| PathBuf::from(".")).join("Artcraft")
+  directories::UserDirs::new().map(|d| d.home_dir().to_path_buf()).unwrap_or_else(|| PathBuf::from(".")).join("VisualabStudio")
 }
 
 /// The API host from `~/Artcraft/settings/env_configs.json` (production unless it says

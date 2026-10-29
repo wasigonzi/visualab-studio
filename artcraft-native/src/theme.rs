@@ -19,11 +19,11 @@ const fn alpha(rgb: u32, a: u8) -> Color32 {
 }
 
 /// `ui-background`: the page behind the feed.
-pub const BG: Color32 = hex(0x121316);
+pub const BG: Color32 = hex(0x090b0d);
 /// `ui-panel`: the top bar, modals and the lightbox.
-pub const PANEL: Color32 = hex(0x101014);
+pub const PANEL: Color32 = hex(0x0d1215);
 /// `ui-controls`: the sidebar, the prompt box and toolbar buttons.
-pub const CONTROLS: Color32 = hex(0x1e1f22);
+pub const CONTROLS: Color32 = hex(0x172125);
 /// The window chrome behind the content panel: the title bar and the sidebar.
 pub const CHROME: Color32 = hex(0x0a0a0c);
 /// `ui-sunken`: wells and inputs.
@@ -55,11 +55,11 @@ pub const WASH_SELECTED: Color32 = alpha(0xffffff, 20);
 pub const WASH_HOVER: Color32 = alpha(0xffffff, 26);
 
 /// The brand blue (`primary`).
-pub const ACCENT: Color32 = hex(0x2d81ff);
+pub const ACCENT: Color32 = hex(0x009b84);
 /// `primary-400`: progress bars and selection rings.
-pub const ACCENT_400: Color32 = hex(0x59a7ff);
+pub const ACCENT_400: Color32 = hex(0x25d6b7);
 /// `ui-accent-ink`: blue text and focus rings.
-pub const ACCENT_INK: Color32 = hex(0x74aaff);
+pub const ACCENT_INK: Color32 = hex(0x55efd0);
 
 /// The inverted primary button (white block, near-black text).
 pub const INVERT_BG: Color32 = Color32::WHITE;

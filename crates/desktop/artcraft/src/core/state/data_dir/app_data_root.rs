@@ -11,7 +11,7 @@ use anyhow::anyhow;
 use directories::UserDirs;
 use std::path::{Path, PathBuf};
 
-const DEFAULT_DATA_DIR : &str = "Artcraft";
+const DEFAULT_DATA_DIR : &str = "VisualabStudio";
 
 /// Note: Tauri appends ".log" to the end of the filename.
 const LOG_FILE_NAME : &str = "artcraft_debug";

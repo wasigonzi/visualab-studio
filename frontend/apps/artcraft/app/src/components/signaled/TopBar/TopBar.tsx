@@ -385,7 +385,7 @@ export const TopBar = ({ pageName }: Props) => {
       case "APPS":
         return ["Home"];
       default:
-        return ["ArtCraft"];
+        return ["Visualab Studio"];
     }
   };
 
@@ -395,8 +395,8 @@ export const TopBar = ({ pageName }: Props) => {
   const { toggleModal: toggleCreditsModal } = useCreditsModalStore();
 
   // Pick logo based on current theme (light uses black logo; others use white)
-  const [_logoSrc, setLogoSrc] = useState<string>(
-    "/resources/logo/artcraft-logo-color-white.svg",
+  const [logoSrc, setLogoSrc] = useState<string>(
+    "/resources/logo/visualab-logo-white.svg",
   );
   useEffect(() => {
     const computeLogo = () => {
@@ -404,8 +404,8 @@ export const TopBar = ({ pageName }: Props) => {
       const isLight = root.classList.contains("theme-light");
       setLogoSrc(
         isLight
-          ? "/resources/logo/artcraft-logo-color-black.svg"
-          : "/resources/logo/artcraft-logo-color-white.svg",
+          ? "/resources/logo/visualab-logo-black.svg"
+          : "/resources/logo/visualab-logo-white.svg",
       );
     };
     computeLogo();
@@ -439,17 +439,17 @@ export const TopBar = ({ pageName }: Props) => {
             className={`flex items-center gap-3 ${platform === "macos" ? "ml-14" : ""}`}
             data-tauri-drag-region
           >
-            {/* <div className="mr-2" data-tauri-drag-region>
+            <div className="mr-2 hidden xl:block" data-tauri-drag-region>
               <span className="sr-only" data-tauri-drag-region>
-                ArtCraft
+                Visualab Studio
               </span>
               <img
                 className="h-[24px] w-auto"
                 src={logoSrc}
-                alt="ArtCraft Logo"
+                alt="Visualab Studio"
                 data-tauri-drag-region
               />
-            </div> */}
+            </div>
             <MenuIconSelector
               menuItems={appMenuTabs}
               activeMenu={tabStore.activeTabId}

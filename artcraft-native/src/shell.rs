@@ -74,7 +74,7 @@ impl Page {
   /// The breadcrumb trail (`Create › Image`).
   pub fn crumbs(self) -> (&'static str, &'static str) {
     match self {
-      Page::Home => ("ArtCraft", "Home"),
+      Page::Home => ("Visualab Studio", "Home"),
       Page::CreateImage | Page::CreateVideo | Page::CreateAudio | Page::Object3d | Page::World3d => ("Create", self.label()),
       Page::Library => ("Assets", "Library"),
       _ => ("Studio", self.label()),
