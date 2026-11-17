@@ -6,7 +6,7 @@ The source uses a provisional V mark and wordmark. Replace `visualab-icon.svg`, 
 
 ## External services
 
-The upstream desktop application contacts ArtCraft / Storyteller services for login, generation, credits and billing. Provider labels intentionally retain the provider names. Do not replace those hosts with the Visualab marketing domain: it does not implement their APIs. Accounts or API keys for chosen providers still need configuration. The backend services are in the separate `storytold/artcraft-services` repository.
+The desktop application contacts its original backend services for login, generation, credits and billing. Provider labels intentionally retain the provider names. Do not replace those hosts with the Visualab marketing domain: it does not implement their APIs. Accounts or API keys for chosen providers still need configuration. The backend services are in the separate `storytold/artcraft-services` repository.
 
 ## Before distribution
 

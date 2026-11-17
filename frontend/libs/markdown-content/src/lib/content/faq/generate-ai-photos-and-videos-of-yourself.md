@@ -1,7 +1,7 @@
 ---
 title: Generate AI photos and videos of yourself
-seoTitle: Generate AI photos and videos of yourself in ArtCraft
-abstract: Create photorealistic images of yourself by combining reference inputs with ArtCraft workflows.
+seoTitle: Generate AI photos and videos of yourself in VL Studios
+abstract: Create photorealistic images of yourself by combining reference inputs with VL Studios workflows.
 isPublished: true
 publishedOn: 2025-10-06
 slug: generate-ai-photos-and-videos-of-yourself
@@ -9,7 +9,7 @@ slug: generate-ai-photos-and-videos-of-yourself
 
 ## Create AI portraits and short videos with strong likeness
 
-With ArtCraft you can generate images and short video clips of yourself while keeping control over pose, lighting, and style. The workflow combines good references with structure-aware generation so the results look like you—and stay consistent across shots.
+With VL Studios you can generate images and short video clips of yourself while keeping control over pose, lighting, and style. The workflow combines good references with structure-aware generation so the results look like you—and stay consistent across shots.
 
 ## What you need
 

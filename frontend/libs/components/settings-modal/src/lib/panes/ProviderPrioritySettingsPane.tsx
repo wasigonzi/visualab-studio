@@ -87,7 +87,7 @@ const SortableItem = ({
 };
 
 const ProviderItemMap = {
-  [Provider.ArtCraft]: { id: Provider.ArtCraft, name: "ArtCraft" },
+  [Provider.ArtCraft]: { id: Provider.ArtCraft, name: "VL Studios" },
   [Provider.Fal]: { id: Provider.Fal, name: "Fal" },
   [Provider.Sora]: { id: Provider.Sora, name: "Sora / ChatGPT" },
 };

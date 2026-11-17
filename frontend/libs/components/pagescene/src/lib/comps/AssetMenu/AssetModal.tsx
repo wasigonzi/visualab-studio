@@ -509,7 +509,7 @@ export const AssetModal = () => {
           <div className="relative col-span-3 flex h-full flex-col p-3 pt-2 after:absolute after:right-0 after:top-0 after:h-full after:w-px after:bg-gray-200 after:bg-white/10">
             <div className="flex h-10 items-center justify-between gap-2.5">
               <h2 className="font-display text-lg tracking-tight text-white">
-                ArtCraft Presets
+                VL Studios Presets
               </h2>
             </div>
             <hr className="my-2 w-full border-white/10" />

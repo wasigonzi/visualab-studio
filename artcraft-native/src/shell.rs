@@ -15,9 +15,8 @@ pub const HEADER_HEIGHT: f32 = 48.0;
 pub const PANEL_GAP: i8 = 8;
 pub const PANEL_RADIUS: u8 = 8;
 const ROW_HEIGHT: f32 = 32.0;
-pub const DISCORD_URL: &str = "https://discord.gg/artcraft";
-pub const GITHUB_URL: &str = "https://github.com/storytold/artcraft";
-pub const TUTORIALS_URL: &str = "https://www.youtube.com/@OfficialArtCraftStudios";
+pub const DISCORD_URL: &str = "https://www.visualabstudios.com";
+pub const TUTORIALS_URL: &str = "https://www.visualabstudios.com";
 pub const WEB_APP_URL: &str = "https://app.getartcraft.com";
 
 /// Every page in the navigation.
@@ -212,7 +211,7 @@ pub fn sidebar(ui: &mut Ui, page: Page, account: &Account<'_>) -> Option<ShellAc
   }
   ui.add_space(10.0);
   widgets::section_label(ui, "Resources", theme::SIDEBAR_INK);
-  for (label, icon, url) in [("Tutorials", Icon::Play, TUTORIALS_URL), ("Discord", Icon::Globe, DISCORD_URL), ("GitHub", Icon::ExternalLink, GITHUB_URL)] {
+  for (label, icon, url) in [("Tutorials", Icon::Play, TUTORIALS_URL), ("Discord", Icon::Globe, DISCORD_URL)] {
     if link_row(ui, label, icon) {
       ui.ctx().open_url(egui::OpenUrl::new_tab(url));
     }

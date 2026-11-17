@@ -29,7 +29,7 @@ const NewsView = ({ onBack }: { onBack: () => void }) => {
       try {
         const baseUrl = import.meta.env.DEV
           ? "http://localhost:4200"
-          : "https://getartcraft.com";
+          : "https://www.visualabstudios.com";
         const res = await fetch(`${baseUrl}/news.json`);
         if (res.ok) {
           const data = await res.json();

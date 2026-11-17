@@ -38,7 +38,7 @@ export const getProviderIcon = (
 export const getProviderDisplayName = (provider: GenerationProvider): string => {
   switch (provider) {
     case GenerationProvider.Artcraft:
-      return "ArtCraft";
+      return "VL Studios";
     case GenerationProvider.Fal:
       return "FAL";
     case GenerationProvider.Grok:

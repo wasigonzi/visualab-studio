@@ -1,6 +1,6 @@
 ---
 title: 3D Editor Basics
-seoTitle: 3D Editor Basics in ArtCraft
+seoTitle: 3D Editor Basics in VL Studios
 abstract: Position camera and objects, compose shots, maintain character consistency.
 isPublished: true
 publishedOn: 2025-10-06

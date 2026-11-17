@@ -7,7 +7,7 @@ publishedOn: 2025-10-06
 slug: edit-image
 ---
 
-## Precise edits without leaving ArtCraft
+## Precise edits without leaving VL Studios
 
 Edit Image lets you remove objects, fix details, or restyle parts of an image. Paint a mask, write a brief instruction, and generate. Only the masked region changes; the rest stays locked.
 

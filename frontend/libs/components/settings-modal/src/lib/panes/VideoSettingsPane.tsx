@@ -30,7 +30,7 @@ export const VideoSettingsPane = () => {
           value={humanVideoProvider}
           onChange={(val: SelectValue) => setHumanVideoProvider(val as string)}
           options={[
-            { value: "artcraft", label: "ArtCraft" },
+            { value: "artcraft", label: "VL Studios" },
             { value: "pal", label: "Pal" },
           ]}
         />
