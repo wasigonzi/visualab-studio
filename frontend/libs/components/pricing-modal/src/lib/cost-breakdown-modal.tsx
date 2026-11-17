@@ -42,7 +42,7 @@ DragHandle.displayName = "ModalDragHandle";
 
 // Provider display name mapping
 const PROVIDER_DISPLAY_NAMES: Record<string, string> = {
-  artcraft: "ArtCraft",
+  artcraft: "VL Studios",
   fal: "FAL",
   grok: "Grok",
   midjourney: "Midjourney",

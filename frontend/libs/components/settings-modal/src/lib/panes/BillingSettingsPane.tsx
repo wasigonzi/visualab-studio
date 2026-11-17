@@ -49,10 +49,10 @@ export const BillingSettingsPane = (args: BillingSettingsPaneProps) => {
   return (
     <>
       <div className="flex flex-col gap-0.5 pt-3 text-base-fg">
-        <Label>Support ArtCraft</Label>
+        <Label>Support VL Studios</Label>
         <p className="text-xs opacity-70">
-          You do not have to purchase anything from us to use ArtCraft, but you
-          can support ArtCraft development by subscribing or buying credits.
+          You do not have to purchase anything from us to use VL Studios, but you
+          can support VL Studios development by subscribing or buying credits.
         </p>
       </div>
 
@@ -60,7 +60,7 @@ export const BillingSettingsPane = (args: BillingSettingsPaneProps) => {
 
       <div className="space-y-4 text-base-fg">
         <div className="space-y-2">
-          <Label>Current ArtCraft Plan</Label>
+          <Label>Current VL Studios Plan</Label>
           <div className="flex items-center justify-between gap-3">
             <div className="flex items-center gap-2 font-display text-2xl font-medium tracking-[-0.02em]">
               <StarIcon className="text-lg text-base-fg/70" />
@@ -106,7 +106,7 @@ export const BillingSettingsPane = (args: BillingSettingsPaneProps) => {
 
         <div className="flex flex-col">
           <Label htmlFor="credits" className="flex items-center gap-2">
-            Your ArtCraft credit balance
+            Your VL Studios credit balance
           </Label>
           <div className="flex items-center justify-between gap-3">
             <div className="flex items-center gap-2">

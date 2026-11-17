@@ -20,7 +20,7 @@ import { FolderIcon, RotateCcwIcon, SearchIcon } from "lucide-react";
 
 const DEFAULT_CUSTOM_FORMAT = "{model}_{date}";
 const FILENAME_OPTIONS = [
-  { value: "artcraft_convention", label: "ArtCraft convention" },
+  { value: "artcraft_convention", label: "VL Studios convention" },
   { value: "custom", label: "Custom format" },
 ];
 
@@ -209,7 +209,7 @@ export const DownloadsSettingsPane = () => {
       <fieldset disabled={!preferences || saving} className="flex flex-col gap-2 border-0 p-0">
         <Label htmlFor="download-filename-mode">Preferred download naming scheme</Label>
         <p className="text-xs opacity-70">
-          {"The ArtCraft convention is {model}_{date}.{ext}, with a batch number when a generation produces several files."}
+          {"The VL Studios convention is {model}_{date}.{ext}, with a batch number when a generation produces several files."}
         </p>
         <div className="max-w-xs">
           <Select

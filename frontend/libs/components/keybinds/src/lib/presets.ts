@@ -121,7 +121,7 @@ export const PRESETS: Record<PresetId, Preset> = {
     id: "gamer",
     label: "Gamer",
     description:
-      "Game-style free camera — WASD to move, Q/E down/up, arrows to look. The current Artcraft default.",
+      "Game-style free camera — WASD to move, Q/E down/up, arrows to look. The current VL Studios default.",
     bindings: {}, // BASE is the gamer scheme.
   },
   blender: {

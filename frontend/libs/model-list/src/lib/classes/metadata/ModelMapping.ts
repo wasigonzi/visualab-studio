@@ -211,7 +211,7 @@ export const getModelDisplayName = (
 // Convert provider string to human-readable display name (this is for the provider priority in settings)
 export const getProviderDisplayName = (provider: string): string => {
   const displayNames: Record<string, string> = {
-    artcraft: "ArtCraft",
+    artcraft: "VL Studios",
     fal: "FAL",
     grok: "Grok",
     midjourney: "Midjourney",

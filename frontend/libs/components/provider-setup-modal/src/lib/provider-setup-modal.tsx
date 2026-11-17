@@ -30,15 +30,15 @@ export function ProviderSetupModal({
   const serviceProviderName = getServiceProviderName(provider);
 
   const modalTitle = `Set up ${serviceProviderName}`;
-  const modalSubTitle = `Add your ${serviceProviderName} account to ArtCraft!`;
+  const modalSubTitle = `Add your ${serviceProviderName} account to VL Studios!`;
 
   let modalDescription;
   switch (provider) {
     case GenerationProvider.Grok:
-      modalDescription = `You can add your ${serviceProviderName} account to ArtCraft by simply logging in. Use can then use it directly within Artcraft. You can add all of your AI accounts to Artcraft to use them all in one place and build the ultimate AI art tool.`;
+      modalDescription = `You can add your ${serviceProviderName} account to VL Studios by simply logging in. Use can then use it directly within VL Studios. You can add all of your AI accounts to VL Studios to use them all in one place and build the ultimate AI art tool.`;
       break;
     default:
-      modalDescription = `You can add your ${serviceProviderName} account to ArtCraft by simply logging in. Use your credits and account directly within Artcraft. You can add all of your AI accounts to Artcraft to use them all in one place and build the ultimate AI art tool.`;
+      modalDescription = `You can add your ${serviceProviderName} account to VL Studios by simply logging in. Use your credits and account directly within VL Studios. You can add all of your AI accounts to VL Studios to use them all in one place and build the ultimate AI art tool.`;
       break;
   }
 
@@ -128,7 +128,7 @@ function getServiceProviderName(provider: GenerationProvider) : string {
       return "Runway";
     case GenerationProvider.Artcraft:
     default:
-      return "Artcraft";
+      return "VL Studios";
   }
 }
 

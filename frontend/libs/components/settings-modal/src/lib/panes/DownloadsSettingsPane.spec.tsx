@@ -80,7 +80,7 @@ it("saves a custom format explicitly, reloads it, and restores the app conventio
   render(<DownloadsSettingsPane />);
   expect((await screen.findByRole("textbox", { name: "Custom format" }) as HTMLInputElement).value).toBe("project_{model}_{YYYY}_{batch_index}");
   await user.click(screen.getByRole("button", { name: "Preferred download naming scheme" }));
-  await user.click(screen.getByRole("option", { name: "ArtCraft convention" }));
+  await user.click(screen.getByRole("option", { name: "VL Studios convention" }));
   await waitFor(() => expect(screen.queryByRole("textbox", { name: "Custom format" })).toBeNull());
   expect(api.update).toHaveBeenLastCalledWith({ preference: "preferred_download_filename", value: "artcraft_convention" });
 });

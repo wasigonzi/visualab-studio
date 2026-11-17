@@ -55,7 +55,7 @@ export function ActionReminderModal({
         titleText = customTitle || "Link Your OpenAI Sora Account";
         break;
       case "artcraftLogin":
-        titleText = customTitle || "Login to ArtCraft";
+        titleText = customTitle || "Login to VL Studios";
         break;
       default:
         titleText = customTitle || "Action Required";
@@ -81,7 +81,7 @@ export function ActionReminderModal({
     case "artcraftLogin":
       messageContent = customMessage || (
         <p className="text-sm text-white/70">
-          Please log in or sign up to ArtCraft to proceed. This will allow you
+          Please log in or sign up to VL Studios to proceed. This will allow you
           to save your work and access all features.
         </p>
       );

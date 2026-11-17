@@ -51,7 +51,7 @@ afterEach(() => {
 it.each([
   { style: "grouped", provider: GenerationProvider.Midjourney, label: "Midjourney" },
   { style: "flat", provider: GenerationProvider.Midjourney, label: "Midjourney" },
-  { style: "grouped", provider: GenerationProvider.Artcraft, label: "ArtCraft" },
+  { style: "grouped", provider: GenerationProvider.Artcraft, label: "VL Studios" },
 ] as const)(
   "selects both Midjourney v8 and $label from the $style picker",
   async ({ style, provider, label }) => {

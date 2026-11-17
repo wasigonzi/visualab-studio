@@ -1,6 +1,6 @@
 # Visualab Studio
 
-Creative desktop application customized for **Visualab Studios**. Based on [ArtCraft](https://github.com/storytold/artcraft).
+Creative desktop application by **Visualab Studios**.
 
 - Black / turquoise identity for the React/Tauri app and the experimental native Rust app.
 - Visualab application name, isolated application identifiers and data directory.
@@ -9,7 +9,7 @@ Creative desktop application customized for **Visualab Studios**. Based on [ArtC
 
 ## Development
 
-See [_docs/dev_setup.md](_docs/dev_setup.md) for the original platform dependencies and commands. Internal crate names and Nx targets remain `artcraft` to preserve build compatibility.
+See [_docs/dev_setup.md](_docs/dev_setup.md) for the original platform dependencies and commands. Internal crate names and Nx targets keep their technical identifiers to preserve build compatibility.
 
 ## Services and release status
 
@@ -17,6 +17,6 @@ This is a branding fork, not an independent hosted AI service. AI providers, bil
 
 No Visualab installer has been built or signed yet. A desktop build and interactive verification are required before distribution. Resources excluded by the upstream NOTICE (sounds, memes, some skyboxes, motion files and animation previews) remain in the source and require removal or replacement before a commercial release. See [VISUALAB_SETUP.md](_docs/VISUALAB_SETUP.md).
 
-## License and attribution
+## License
 
-Copyright (c) 2026 ArtCraft Team and the ArtCraft contributors. Code is available under [MIT](LICENSE-MIT) or [Apache-2.0](LICENSE-APACHE). Preserve [NOTICE](NOTICE), including third-party licenses and exclusions. Visualab is an independent customization, not an official ArtCraft release.
+Code is available under [MIT](LICENSE-MIT) or [Apache-2.0](LICENSE-APACHE). Required copyright notices, third-party licenses and exclusions are in [NOTICE](NOTICE).

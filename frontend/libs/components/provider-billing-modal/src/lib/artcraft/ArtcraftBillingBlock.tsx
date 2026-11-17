@@ -13,13 +13,13 @@ export function ArtcraftBillingBlock({
 
   const subtitle = isVideoPage
     ? `Creating high-quality videos requires significant computing power. 
-       To generate more, you can subscribe to ArtCraft or buy ArtCraft credits. 
+       To generate more, you can subscribe to VL Studios or buy VL Studios credits. 
        You can also add 3rd party providers and use your existing services.
-       Your support helps us keep building and improving ArtCraft! 
+       Your support helps us keep building and improving VL Studios! 
        We're building the image and video tool that you can own forever.`
-    : `To generate more, subscribe to ArtCraft or buy credits. 
+    : `To generate more, subscribe to VL Studios or buy credits. 
        You can also add 3rd party providers and use your existing services.
-       Your support helps fund open source development and keeps ArtCraft improving! 
+       Your support helps fund open source development and keeps VL Studios improving! 
        We're building the creative tool that you can own forever.`;
 
   return (

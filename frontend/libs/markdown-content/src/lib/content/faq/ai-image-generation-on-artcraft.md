@@ -1,15 +1,15 @@
 ---
-title: AI Image Generation on ArtCraft
-seoTitle: AI Image Generation on ArtCraft
-abstract: Explore ArtCraft's AI generation capabilities: features, workflows, and best practices.
+title: AI Image Generation on VL Studios
+seoTitle: AI Image Generation on VL Studios
+abstract: Explore VL Studios's AI generation capabilities: features, workflows, and best practices.
 isPublished: true
 publishedOn: 2025-10-06
 slug: ai-image-generation-on-artcraft
 ---
 
-## What is AI image generation in ArtCraft?
+## What is AI image generation in VL Studios?
 
-ArtCraft brings modern AI image generation into a creator-first workflow that runs locally. You compose your idea on a 2D canvas or in a 3D scene, then guide the model to render the final image with consistency and control. The result is a fast loop for exploration, iteration, and polished outputs.
+VL Studios brings modern AI image generation into a creator-first workflow that runs locally. You compose your idea on a 2D canvas or in a 3D scene, then guide the model to render the final image with consistency and control. The result is a fast loop for exploration, iteration, and polished outputs.
 
 ## Core capabilities
 

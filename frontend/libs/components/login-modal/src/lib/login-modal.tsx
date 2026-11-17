@@ -248,7 +248,7 @@ export function LoginModal({
                           <div className="mb-8 text-left">
                             <img
                               src="/resources/logo/artcraft-icon.png"
-                              alt="ArtCraft"
+                              alt="VL Studios"
                               className="pointer-events-none mb-8 h-8 w-auto select-none"
                               draggable={false}
                             />
@@ -264,7 +264,7 @@ export function LoginModal({
                             </h1>
                             <p className="text-sm leading-relaxed text-white/60">
                               {isSignUp
-                                ? "Sign up to start creating with ArtCraft"
+                                ? "Sign up to start creating with VL Studios"
                                 : "Log in to your creative workspace."}
                             </p>
                           </div>
@@ -288,7 +288,7 @@ export function LoginModal({
                       </div>
 
                       <div className="px-6 pb-6 text-center font-mono text-[10px] uppercase tracking-[0.12em] text-white/25 sm:px-10">
-                        &copy; {new Date().getFullYear()} ArtCraft. All rights
+                        &copy; {new Date().getFullYear()} VL Studios. All rights
                         reserved.
                       </div>
                     </div>

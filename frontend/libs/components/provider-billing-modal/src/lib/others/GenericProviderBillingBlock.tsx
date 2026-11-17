@@ -18,7 +18,7 @@ export function GenericProviderBillingBlock({
       </h2>
       <p className="text-sm leading-relaxed text-base-fg/60">
         Please set up {serviceProviderName} on their website to use it with
-        ArtCraft.
+        VL Studios.
       </p>
     </div>
   );
@@ -54,6 +54,6 @@ function getServiceProviderName(provider: GenerationProvider) : string {
       return "Runway";
     case GenerationProvider.Artcraft:
     default:
-      return "Artcraft";
+      return "VL Studios";
   }
 }

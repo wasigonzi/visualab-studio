@@ -18,7 +18,7 @@ const pricingConfig = {
   header: {
     title: "Pick a plan",
     subtitle:
-      "Get a ton of generations and invest in a tool you'll always own. Your subscription helps keep ArtCraft free and open for everyone.",
+      "Get a ton of generations and invest in a tool you'll always own. Your subscription helps keep VL Studios free and open for everyone.",
   },
 };
 
@@ -159,7 +159,7 @@ export function PricingContent({ title, subtitle }: PricingContentProps) {
           <div className="border-t border-white/15 p-6 md:border-l md:border-t-0 md:p-10">
             <p className="pricing-hud text-white/40">† Footnote</p>
             <p className="mt-4 max-w-md leading-relaxed text-white/55">
-              ArtCraft can be used without paying for a subscription. You can
+              VL Studios can be used without paying for a subscription. You can
               bring your own compute and third-party subscriptions. We hope
               you’ll subscribe, though, as that helps accelerate our
               development.

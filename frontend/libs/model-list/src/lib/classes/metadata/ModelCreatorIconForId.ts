@@ -29,8 +29,8 @@ export const MODEL_ID_PREFIX_CREATORS: Array<[string, ModelCreator]> = [
   ["qwen", ModelCreator.Alibaba],
   ["suno", ModelCreator.Suno],
   ["seed_audio", ModelCreator.Bytedance],
-  // Beeble SwitchX (background change) has no provider icon — use the ArtCraft
-  // mark since it's surfaced as an ArtCraft feature.
+  // Beeble SwitchX (background change) has no provider icon — use the VL Studios
+  // mark since it's surfaced as an VL Studios feature.
   ["switch_x", ModelCreator.ArtCraft],
   // 3D mesh / splat models (not in ALL_MODELS_LIST).
   ["hunyuan", ModelCreator.Tencent],

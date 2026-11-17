@@ -1,7 +1,7 @@
 ---
-title: What image and video models does ArtCraft support?
-seoTitle: ArtCraft models — Image and Video generation models
-abstract: A quick overview of image and video models available in ArtCraft.
+title: What image and video models does VL Studios support?
+seoTitle: VL Studios models — Image and Video generation models
+abstract: A quick overview of image and video models available in VL Studios.
 isPublished: true
 publishedOn: 2025-10-06
 slug: models-supported

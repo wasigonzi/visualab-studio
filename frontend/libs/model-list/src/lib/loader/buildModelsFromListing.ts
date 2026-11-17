@@ -366,7 +366,7 @@ const resolutionLabel = (value: string): string => {
 };
 
 // Guess a creator from the API's `model_creator`, then the overlay, then the
-// model-id prefix, then ArtCraft.
+// model-id prefix, then VL Studios.
 const creatorFor = (
   raw: string | null | undefined,
   modelId: string,

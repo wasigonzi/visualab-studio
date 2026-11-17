@@ -197,7 +197,7 @@ export const Controls3D = ({
                     onOpenChange={setIsAddAssetPopoverOpen}
                     items={[
                       {
-                        label: "ArtCraft Presets (B)",
+                        label: "VL Studios Presets (B)",
                         selected: false,
                         icon: <BoxIcon className="h-4 w-4" />,
                         action: "presets",

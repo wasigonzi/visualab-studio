@@ -9,7 +9,7 @@ import {
 export type { BillingCadence };
 
 export interface PricingTableProps {
-  /** Slug of the user's active ArtCraft plan, if any. */
+  /** Slug of the user's active VL Studios plan, if any. */
   activePlanSlug?: string | null;
   displayName?: string;
   loading?: boolean;

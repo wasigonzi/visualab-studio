@@ -280,7 +280,7 @@ class Scene {
         obj.userData["media_file_type"] = MediaFileType.Video;
       } else {
         const loader = new THREE.TextureLoader();
-        // NB(bt,2025-08-26): Images loaded throughout the rest of ArtCraft with the <img> tag set
+        // NB(bt,2025-08-26): Images loaded throughout the rest of VL Studios with the <img> tag set
         // the "sec-fetch-mode: no-cors" header. On Safari (Mac), this is cached and makes the image
         // permanently impossible to use in Three.js. We bypass this by appending a query parameter
         // to the URL.

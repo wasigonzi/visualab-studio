@@ -1,6 +1,6 @@
 ---
 title: Turn Images into 3D Objects
-seoTitle: Turn Images into 3D Objects in ArtCraft
+seoTitle: Turn Images into 3D Objects in VL Studios
 abstract: Import images, convert them to scene elements, compose and render.
 isPublished: true
 publishedOn: 2025-10-06

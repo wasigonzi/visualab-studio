@@ -1,5 +1,5 @@
 ---
-title: Image to Video in ArtCraft
+title: Image to Video in VL Studios
 seoTitle: Image to Video — Animate your images with AI video models
 abstract: Turn a single image into a short, cinematic clip with controllable motion and style.
 isPublished: true

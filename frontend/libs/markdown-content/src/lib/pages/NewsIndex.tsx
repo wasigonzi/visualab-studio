@@ -10,7 +10,7 @@ export const NewsIndex = ({ basePath }: NewsIndexProps) => {
   const items = getNewsPosts();
   const title = "News & Updates";
   const description =
-    "Latest updates, features, and announcements from the ArtCraft team.";
+    "Latest updates, features, and announcements from the VL Studios team.";
 
   // Note: SEO/Head handling should be done by the consumer app if needed (e.g. Helmet)
   // But we can check if we want to include it here or let the parent handle it.

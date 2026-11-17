@@ -19,7 +19,7 @@ The 3D Editor lets you place subjects, and cameras in a real‑time scene. Add o
 
 ## Workflow
 
-1. Choose a preset from ArtCraft presets by clicking the + button above or import images to build the scene.
+1. Choose a preset from VL Studios presets by clicking the + button above or import images to build the scene.
 2. Place the subject, set the camera height and focal length.
 3. Add a concise prompt for style and materials.
 4. Generate, compare, and tweak until it clicks.

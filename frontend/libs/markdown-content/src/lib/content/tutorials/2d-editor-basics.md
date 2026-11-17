@@ -1,6 +1,6 @@
 ---
 title: 2D Editor Basics
-seoTitle: 2D Editor Basics in ArtCraft
+seoTitle: 2D Editor Basics in VL Studios
 abstract: Learn the canvas tools, arrange elements, and generate from layouts.
 isPublished: true
 publishedOn: 2025-10-06

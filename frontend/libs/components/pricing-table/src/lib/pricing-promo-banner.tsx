@@ -31,7 +31,7 @@ export const PricingPromoBanner = ({ className }: PricingPromoBannerProps) => (
       </h2>
 
       <p className="max-w-2xl text-sm sm:text-base text-white/60">
-        Every ArtCraft plan is discounted for a limited time - lock in the
+        Every VL Studios plan is discounted for a limited time - lock in the
         lowest price and start creating.
       </p>
     </div>
